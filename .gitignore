@@ -1,0 +1,20 @@
+# Build directories
+/build/
+/build-*/
+cmake-build-*/
+
+# CMake / tooling output
+compile_commands.json
+.cache/
+CMakeUserPresets.json
+
+# Objects and archives
+*.o
+*.a
+*.dylib
+*.so
+
+# Editor / OS noise
+.DS_Store
+.idea/
+.vscode/
